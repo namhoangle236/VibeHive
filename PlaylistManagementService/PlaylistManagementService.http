@@ -1,0 +1,55 @@
+@host = http://localhost:5082
+@playlistId = 1
+@songId = 4
+@userId = 0
+
+### Create a collaborative playlist. The response contains its ID.
+POST {{host}}/api/playlists
+Content-Type: application/json
+
+{
+  "name": "Friday Playlist",
+  "createdBy": 0,
+  "isCollaborative": true
+}
+
+### List all playlists.
+GET {{host}}/api/playlists
+
+### List playlists created by or shared with a user.
+GET {{host}}/api/playlists?userId={{userId}}
+
+### List the song catalog. The catalogue starts empty; create a song below first.
+GET {{host}}/api/songs
+
+### Search the catalog by title, artist, or genre.
+GET {{host}}/api/songs?search=pop
+
+### Create a song in the empty catalogue. Its returned ID is 4 on a fresh server. Update songId above if needed.
+POST {{host}}/api/songs
+Content-Type: application/json
+
+{
+  "title": "Weekend Sky",
+  "artist": "Sample Artist",
+  "genre": "Pop",
+  "durationSeconds": 180
+}
+
+### Add a catalog song to a playlist.
+PUT {{host}}/api/playlists/{{playlistId}}/add?userId={{userId}}&songId={{songId}}
+
+### The creator (user 0) invites user 1.
+PUT {{host}}/api/playlists/{{playlistId}}/invite?userId={{userId}}&collaboratorUserId=1
+
+### The creator votes for a song.
+POST {{host}}/api/playlists/{{playlistId}}/vote?userId={{userId}}&songId={{songId}}
+
+### The invited user can also vote. Each user gets one vote per song per playlist.
+POST {{host}}/api/playlists/{{playlistId}}/vote?userId=1&songId={{songId}}
+
+### Get song details and votes, ordered from highest votes to lowest.
+GET {{host}}/api/playlists/{{playlistId}}/rankings?userId={{userId}}
+
+### Only the creator can remove a song from the playlist.
+DELETE {{host}}/api/playlists/{{playlistId}}/songs/{{songId}}?userId={{userId}}

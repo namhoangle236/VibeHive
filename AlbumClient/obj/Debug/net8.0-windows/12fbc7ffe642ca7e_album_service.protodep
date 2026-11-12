@@ -1,0 +1,2 @@
+obj\Debug\net8.0-windows\Protos/AlbumService.cs \
+obj\Debug\net8.0-windows\Protos/AlbumServiceGrpc.cs: Protos/album_service.proto

@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99A01701-1883-4B07-83D7-21646AD744C6}|Clients{99A01701-1883-4B07-83D7-21646AD744C6}|PlaylistWinForms||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C04634D-097D-C936-52EF-40CE8EB21932}|PlaylistManagementService\\PlaylistManagementService.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\playlistmanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C04634D-097D-C936-52EF-40CE8EB21932}|PlaylistManagementService\\PlaylistManagementService.csproj|solutionrelative:playlistmanagementservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4312EF2-FA49-42FC-B0FE-139C8A3170CE}|MusicRentalManagementServiceAPI\\MusicRentalManagementServiceAPI.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\musicrentalmanagementserviceapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4312EF2-FA49-42FC-B0FE-139C8A3170CE}|MusicRentalManagementServiceAPI\\MusicRentalManagementServiceAPI.csproj|solutionrelative:musicrentalmanagementserviceapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\albummanagementgrpc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|solutionrelative:albummanagementgrpc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\albummanagementgrpc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|solutionrelative:albummanagementgrpc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\albummanagementgrpc\\albummanagementgrpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|solutionrelative:albummanagementgrpc\\albummanagementgrpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\albummanagementgrpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DCD1BF-A9BC-D338-1E34-B187C4D4E519}|AlbumManagementGrpc\\AlbumManagementGrpc.csproj|solutionrelative:albummanagementgrpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FD9E87-337B-4980-BAC8-450A2ED06D43}|MainMenu\\MainMenu.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\mainmenu\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FD9E87-337B-4980-BAC8-450A2ED06D43}|MainMenu\\MainMenu.csproj|solutionrelative:mainmenu\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FD9E87-337B-4980-BAC8-450A2ED06D43}|MainMenu\\MainMenu.csproj|C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\mainmenu\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6FD9E87-337B-4980-BAC8-450A2ED06D43}|MainMenu\\MainMenu.csproj|solutionrelative:mainmenu\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C04634D-097D-C936-52EF-40CE8EB21932}|PlaylistManagementService\\PlaylistManagementService.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\playlistmanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C04634D-097D-C936-52EF-40CE8EB21932}|PlaylistManagementService\\PlaylistManagementService.csproj|solutionrelative:playlistmanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{305D1910-C03B-44A8-8007-BF3F1B146F9A}|PlaylistWinForms\\PlaylistWinForms.csproj|c:\\users\\namho\\desktop\\dev422_app-architecture\\vibehive\\playlistwinforms\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 284,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\PlaylistManagementService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PlaylistManagementService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\PlaylistManagementService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PlaylistManagementService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-11T13:25:00.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\MusicRentalManagementServiceAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MusicRentalManagementServiceAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\MusicRentalManagementServiceAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MusicRentalManagementServiceAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-11T13:24:39.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AlbumManagementGrpc\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AlbumManagementGrpc\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-11T13:23:33.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\appsettings.json",
+              "RelativeDocumentMoniker": "AlbumManagementGrpc\\appsettings.json",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\appsettings.json",
+              "RelativeToolTip": "AlbumManagementGrpc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-11T13:23:25.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlbumManagementGrpc.csproj",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\AlbumManagementGrpc.csproj",
+              "RelativeDocumentMoniker": "AlbumManagementGrpc\\AlbumManagementGrpc.csproj",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\AlbumManagementGrpc.csproj",
+              "RelativeToolTip": "AlbumManagementGrpc\\AlbumManagementGrpc.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-11T13:23:13.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\Program.cs",
+              "RelativeDocumentMoniker": "AlbumManagementGrpc\\Program.cs",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\AlbumManagementGrpc\\Program.cs",
+              "RelativeToolTip": "AlbumManagementGrpc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T13:23:17.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\MainMenu\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainMenu\\MainForm.cs",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\MainMenu\\MainForm.cs",
+              "RelativeToolTip": "MainMenu\\MainForm.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T13:09:52.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\PlaylistManagementService\\Program.cs",
+              "RelativeDocumentMoniker": "PlaylistManagementService\\Program.cs",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\PlaylistManagementService\\Program.cs",
+              "RelativeToolTip": "PlaylistManagementService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T13:16:13.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlaylistWinForms",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\PlaylistWinForms\\PlaylistWinForms.csproj",
+              "RelativeDocumentMoniker": "PlaylistWinForms\\PlaylistWinForms.csproj",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\PlaylistWinForms\\PlaylistWinForms.csproj",
+              "RelativeToolTip": "PlaylistWinForms\\PlaylistWinForms.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-11T13:34:33.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\MainMenu\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainMenu\\MainForm.cs",
+              "ToolTip": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\MainMenu\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainMenu\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T13:09:47.968Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 116,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

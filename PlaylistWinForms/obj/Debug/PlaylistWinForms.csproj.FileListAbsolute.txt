@@ -1,0 +1,12 @@
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\bin\Debug\PlaylistWinForms.exe.config
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\bin\Debug\PlaylistWinForms.exe
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\bin\Debug\PlaylistWinForms.pdb
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.csproj.AssemblyReference.cache
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.Form1.resources
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.Properties.Resources.resources
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.csproj.GenerateResource.cache
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.csproj.CoreCompileInputs.cache
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\Playlist.D8F96BEB.Up2Date
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.exe
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.pdb

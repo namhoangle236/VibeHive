@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Album",
+    "Projects": [
+      {
+        "Path": "AlbumClient\\AlbumClient.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AlbumManagementGrpc\\AlbumManagementGrpc.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Rental",
+    "Projects": [
+      {
+        "Path": "MusicRentalManagementGUI\\MusicRentalManagementGUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MusicRentalManagementServiceAPI\\MusicRentalManagementServiceAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Playlist",
+    "Projects": [
+      {
+        "Path": "PlaylistManagementService\\PlaylistManagementService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PlaylistWinForms\\PlaylistWinForms.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "MainHub and Services",
+    "Projects": [
+      {
+        "Path": "AlbumManagementGrpc\\AlbumManagementGrpc.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MusicRentalManagementServiceAPI\\MusicRentalManagementServiceAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PlaylistManagementService\\PlaylistManagementService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MainMenu\\MainMenu.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "6pdyPRMlqSE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namho\\Desktop\\DEV422_App-Architecture\\VibeHive\\PlaylistManagementService\\PlaylistManagementService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namho\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.21\\microsoft.aspnetcore.openapi.8.0.21.nupkg.sha512",
+    "C:\\Users\\namho\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\namho\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\namho\\.nuget\\packages\\swashbuckle.aspnetcore\\8.1.3\\swashbuckle.aspnetcore.8.1.3.nupkg.sha512",
+    "C:\\Users\\namho\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.1.3\\swashbuckle.aspnetcore.swagger.8.1.3.nupkg.sha512",
+    "C:\\Users\\namho\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.1.3\\swashbuckle.aspnetcore.swaggergen.8.1.3.nupkg.sha512",
+    "C:\\Users\\namho\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.1.3\\swashbuckle.aspnetcore.swaggerui.8.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
