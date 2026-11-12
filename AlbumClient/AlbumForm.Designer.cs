@@ -131,7 +131,7 @@
             button_Add.TabIndex = 9;
             button_Add.Text = "Add Album";
             button_Add.UseVisualStyleBackColor = true;
-            button_Add.Click += this.button_Add_Click;
+            button_Add.Click += button_Add_Click;
             // 
             // textBox_id
             // 
@@ -157,7 +157,7 @@
             button_Get.TabIndex = 12;
             button_Get.Text = "GET";
             button_Get.UseVisualStyleBackColor = true;
-            button_Get.Click += this.button_Get_Click;
+            button_Get.Click += button_Get_Click;
             // 
             // button_Update
             // 
@@ -167,6 +167,7 @@
             button_Update.TabIndex = 13;
             button_Update.Text = "UPDATE";
             button_Update.UseVisualStyleBackColor = true;
+            button_Update.Click += button_Update_Click;
             // 
             // button_Delete
             // 
@@ -176,7 +177,7 @@
             button_Delete.TabIndex = 14;
             button_Delete.Text = "DELETE";
             button_Delete.UseVisualStyleBackColor = true;
-            button_Delete.Click += this.button_Delete_Click;
+            button_Delete.Click += button_Delete_Click;
             // 
             // listBox_Albums
             // 
@@ -194,7 +195,7 @@
             button_List.TabIndex = 16;
             button_List.Text = "List Albums";
             button_List.UseVisualStyleBackColor = true;
-            button_List.Click += this.button_List_Click;
+            button_List.Click += button_List_Click;
             // 
             // label6
             // 
@@ -203,7 +204,7 @@
             label6.Name = "label6";
             label6.Size = new Size(362, 20);
             label6.TabIndex = 17;
-            label6.Text = "ACTUNG! For 'update', both id and fields are required";           
+            label6.Text = "ACTUNG! For 'update', both id and fields are required";
             // 
             // label7
             // 

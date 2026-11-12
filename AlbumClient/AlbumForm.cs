@@ -20,12 +20,24 @@ namespace AlbumClient
 
         private void button_Add_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(textBox_title.Text) || string.IsNullOrWhiteSpace(textBox_artist.Text))
+            {
+                MessageBox.Show("Title and artist are required");
+                return;
+            }
+
+            if (!int.TryParse(textBox_year.Text, out int year))
+            {
+                MessageBox.Show("Year must be a number");
+                return;
+            }
+
             Album added = client.AddAlbum(new Album
             {
                 Title = textBox_title.Text,
                 Artist = textBox_artist.Text,
                 Genre = textBox_genre.Text,
-                Year = int.Parse(textBox_year.Text),
+                Year = year,
                 Available = checkBox_available.Checked
             });
             MessageBox.Show("Added id " + added.Id);
@@ -33,8 +45,21 @@ namespace AlbumClient
 
         private void button_Get_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(textBox_id.Text);
+            if (!int.TryParse(textBox_id.Text, out int id))
+            {
+                MessageBox.Show("Id must be a number");
+                return;
+            }
+
             Album album = client.GetAlbum(new AlbumId { Id = id });
+
+            // fill the boxes so we can edit without retyping
+            textBox_title.Text = album.Title;
+            textBox_artist.Text = album.Artist;
+            textBox_genre.Text = album.Genre;
+            textBox_year.Text = album.Year.ToString();
+            checkBox_available.Checked = album.Available;
+
             MessageBox.Show(
                 album.Id + ": " + album.Title + "\n" +
                 "Artist: " + album.Artist + "\n" +
@@ -46,14 +71,31 @@ namespace AlbumClient
 
         private void button_Update_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(textBox_id.Text);
+            if (!int.TryParse(textBox_id.Text, out int id))
+            {
+                MessageBox.Show("Id must be a number");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBox_title.Text) || string.IsNullOrWhiteSpace(textBox_artist.Text))
+            {
+                MessageBox.Show("Title and artist are required");
+                return;
+            }
+
+            if (!int.TryParse(textBox_year.Text, out int year))
+            {
+                MessageBox.Show("Year must be a number");
+                return;
+            }
+
             Album updated = client.UpdateAlbum(new Album
             {
                 Id = id,
                 Title = textBox_title.Text,
                 Artist = textBox_artist.Text,
                 Genre = textBox_genre.Text,
-                Year = int.Parse(textBox_year.Text),
+                Year = year,
                 Available = checkBox_available.Checked
             });
             MessageBox.Show("Updated " + updated.Id);
@@ -61,7 +103,12 @@ namespace AlbumClient
 
         private void button_Delete_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(textBox_id.Text);
+            if (!int.TryParse(textBox_id.Text, out int id))
+            {
+                MessageBox.Show("Id must be a number");
+                return;
+            }
+
             client.DeleteAlbum(new AlbumId { Id = id });
             MessageBox.Show("Deleted");
         }
@@ -81,5 +128,7 @@ namespace AlbumClient
         private void label6_Click(object sender, EventArgs e)
         {
         }
+
+        
     }
 }

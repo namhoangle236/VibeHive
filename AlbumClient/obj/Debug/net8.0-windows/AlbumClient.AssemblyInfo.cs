@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlbumClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f53484cf73ccbb31f6ecc499224efc2c689250f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlbumClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlbumClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

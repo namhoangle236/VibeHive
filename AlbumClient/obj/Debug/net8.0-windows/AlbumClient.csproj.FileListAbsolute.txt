@@ -46,3 +46,4 @@ C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\AlbumClient\obj\Debug\ne
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\AlbumClient\obj\Debug\net8.0-windows\AlbumClient.pdb
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\AlbumClient\obj\Debug\net8.0-windows\AlbumClient.genruntimeconfig.cache
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\AlbumClient\obj\Debug\net8.0-windows\ref\AlbumClient.dll
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\AlbumClient\obj\Debug\net8.0-windows\AlbumClient.sourcelink.json
