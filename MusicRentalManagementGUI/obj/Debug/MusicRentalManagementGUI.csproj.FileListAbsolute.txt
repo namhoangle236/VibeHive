@@ -25,3 +25,4 @@ C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\MusicRentalManagementGUI
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\MusicRentalManagementGUI\obj\Debug\MusicRen.799DFFF1.Up2Date
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\MusicRentalManagementGUI\obj\Debug\MusicRentalManagementGUI.exe
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\MusicRentalManagementGUI\obj\Debug\MusicRentalManagementGUI.pdb
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\MusicRentalManagementGUI\obj\Debug\MusicRentalManagementGUI.exe.config

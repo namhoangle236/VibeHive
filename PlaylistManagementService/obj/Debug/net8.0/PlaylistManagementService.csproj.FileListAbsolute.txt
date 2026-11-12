@@ -28,3 +28,4 @@ C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistManagementServic
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistManagementService\obj\Debug\net8.0\PlaylistManagementService.pdb
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistManagementService\obj\Debug\net8.0\PlaylistManagementService.genruntimeconfig.cache
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistManagementService\obj\Debug\net8.0\ref\PlaylistManagementService.dll
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistManagementService\obj\Debug\net8.0\PlaylistManagementService.sourcelink.json

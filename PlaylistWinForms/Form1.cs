@@ -11,7 +11,7 @@ namespace PlaylistWinForms
 {
     public partial class Form1 : Form
     {
-        private const int CurrentUserId = 0;
+        private readonly int CurrentUserId;
         private readonly PlaylistApiClient api = new PlaylistApiClient();
         private readonly Dictionary<TextBox, string> placeholders = new Dictionary<TextBox, string>();
         private readonly HashSet<TextBox> showingPlaceholder = new HashSet<TextBox>();
@@ -40,8 +40,10 @@ namespace PlaylistWinForms
             get { return lsb_songs_in_playlist.SelectedItem as Song; }
         }
 
-        public Form1()
+        public Form1(int userId = 0)
         {
+            CurrentUserId = userId;
+
             InitializeComponent();
 
             if (components == null)
@@ -50,7 +52,7 @@ namespace PlaylistWinForms
             refreshTimer = new Timer(components) { Interval = 3000 };
             toolTips = new ToolTip(components);
 
-            Text = "CollaborativePlaylistBuilder - User 0";
+            Text = "CollaborativePlaylistBuilder - User " + CurrentUserId;
             KeyPreview = true;
 
             lsb_playlists.DisplayMember = "DisplayName";
@@ -461,8 +463,8 @@ namespace PlaylistWinForms
                 bindingLists = false;
             }
 
-            Text = "CollaborativePlaylistBuilder - User 0"
-                + (search.Length == 0 ? "" : " - Search: " + search);
+            Text = "CollaborativePlaylistBuilder - User " + CurrentUserId
+            + (search.Length == 0 ? "" : " - Search: " + search);
 
             UpdateButtons();
         }
@@ -590,7 +592,7 @@ namespace PlaylistWinForms
                 : exception.Message;
 
             if (connectionError)
-                Text = "CollaborativePlaylistBuilder - User 0 - API unavailable";
+                Text = "CollaborativePlaylistBuilder - User " + CurrentUserId + "API unavailable";
 
             if (showMessage)
             {

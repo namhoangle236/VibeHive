@@ -10,3 +10,4 @@ C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Deb
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\Playlist.D8F96BEB.Up2Date
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.exe
 C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.pdb
+C:\Users\namho\Desktop\DEV422_App-Architecture\VibeHive\PlaylistWinForms\obj\Debug\PlaylistWinForms.exe.config

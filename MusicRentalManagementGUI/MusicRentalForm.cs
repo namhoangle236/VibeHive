@@ -24,6 +24,9 @@ namespace MusicRentalManagementGUI
             {3, "Terra Branford" }
         };
 
+        //saving api url as local variable
+        private static string APIURL = "https://localhost:7038/api";
+
         //http client needed to communicate with APIs
         private static readonly HttpClient client = new HttpClient();
 
@@ -31,6 +34,7 @@ namespace MusicRentalManagementGUI
         {
             InitializeComponent();
         }
+
 
 
         // --- needed for testing --- //
@@ -98,7 +102,7 @@ namespace MusicRentalManagementGUI
             //using try/catch to catch network errors if they crop up
             try
             {
-                message = await client.PostAsync("https://localhost:7039/api/Music", content);
+                message = await client.PostAsync($"{APIURL}/Music", content);
             }
             catch (Exception ex)
             {
@@ -127,7 +131,7 @@ namespace MusicRentalManagementGUI
 
             try
             {
-                message = await client.GetAsync("https://localhost:7039/api/Music");
+                message = await client.GetAsync($"{APIURL}/Music");
             }
             catch (Exception ex)
             {
@@ -170,7 +174,7 @@ namespace MusicRentalManagementGUI
 
             try
             {
-                message = await client.DeleteAsync($"https://localhost:7039/api/Music/{albumId}");
+                message = await client.DeleteAsync($"{APIURL}/Music/{albumId}");
             }
             catch (Exception ex)
             {
@@ -209,7 +213,7 @@ namespace MusicRentalManagementGUI
             try
             {
                 //api determines if album exists and is available, then sets the isAvailable flag to false
-                rentalMessage = await client.PostAsync($"https://localhost:7039/api/Rentals?userId={userID}&albumId={albumID}",
+                rentalMessage = await client.PostAsync($"{APIURL}/Rentals?userId={userID}&albumId={albumID}",
                     null);
             }
             catch (Exception ex)
@@ -244,7 +248,7 @@ namespace MusicRentalManagementGUI
 
             try
             {
-                rentalMessage = await client.PostAsync($"https://localhost:7039/api/Rentals/{albumID}/return", null);
+                rentalMessage = await client.PostAsync($"{APIURL}/Rentals/{albumID}/return", null);
             }
             catch (Exception ex)
             {
@@ -274,9 +278,9 @@ namespace MusicRentalManagementGUI
 
             try
             { 
-                rentalsMessage = await client.GetAsync("https://localhost:7039/api/Rentals");
+                rentalsMessage = await client.GetAsync($"{APIURL}/Rentals");
 
-                albumsMessage = await client.GetAsync("https://localhost:7039/api/Music");
+                albumsMessage = await client.GetAsync($"{APIURL}/Music");
             }
             catch (Exception ex)
             {
@@ -331,10 +335,10 @@ namespace MusicRentalManagementGUI
             try
             {
                 //rentals
-                rentalsMessage = await client.GetAsync("https://localhost:7039/api/Rentals");
+                rentalsMessage = await client.GetAsync($"{APIURL}/Rentals");
 
                 //albums 
-                albumsMessage = await client.GetAsync("https://localhost:7039/api/Music");
+                albumsMessage = await client.GetAsync($"{APIURL}/Music");
             }
             catch (Exception ex)
             {
